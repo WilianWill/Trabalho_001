@@ -1,0 +1,99 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navigation .logo a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navigation .menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation .menu li {
+  margin: 0 1rem;
+}
+
+.navigation .menu li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color background-color 0.3s ease;
+}
+
+.navigation .menu li a:hover {
+  color: #0077ff;
+}
+
+.navigation .menu li a.active {
+  color: #0077ff;
+}
+
+.line {
+  border-bottom: 2px solid red;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button i {
+  font-size: 0.7rem;
+  color: #333;
+}
+
+button i:hover {
+  color: #0077ff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.logo i {
+  display: none;
+  font-size: 1.2rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.logo i:hover {
+  color: #0077ff;
+  transform: scale(1.2);
+  transition: all ease 0.3s;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #333;
+}

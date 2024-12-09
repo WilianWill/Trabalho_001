@@ -103,8 +103,10 @@
    text-align: center;
 
   }
+}
 
 @media (widith < 768px) {
+
   .product_container {
     display: grid;
     grid-template-columns: 1fr;

@@ -49,6 +49,18 @@
   overflow: hidden;
   overflow-x: scroll;
   gap: 2rem;
+  scroll-behavior: smooth;
+}
+
+.product_item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1.2rem;
 }
 
 .product_container::-webkit-scrollbar {
@@ -63,6 +75,7 @@
   line-height: 1.5;
   color: #333;
   font-size: 1rem;
+  padding: 2rem;
 }
 
 .product_description p {

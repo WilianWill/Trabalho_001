@@ -1,3 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+
+
 .product_container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -78,5 +89,30 @@
   }
   100% {
     background-color: #3d8bc7;
+  }
+}
+
+
+/* media-queries product-page */
+
+@media (width < 500px) {
+  .product_container {
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: center;
+   text-align: center;
+
+  }
+
+@media (widith < 768px) {
+  .product_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+  }
+
+  .product_item img {
+    height: 150px;
   }
 }

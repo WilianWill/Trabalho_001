@@ -36,7 +36,8 @@ body {
   width: 100%;
   overflow: hidden;
   position: relative;
-  margin-top: 4rem;
+  margin-top: 5rem;
+  scroll-margin-top: 4rem;
 }
 
 .hero_carrousel {
@@ -135,4 +136,8 @@ body {
   100% {
     background-color: #3d8bc7;
   }
+}
+
+div {
+  scroll-margin-top: 5rem;
 }

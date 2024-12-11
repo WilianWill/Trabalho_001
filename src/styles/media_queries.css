@@ -138,6 +138,8 @@
     align-items: center;
     text-align: center;
   }
+  .footer {
+    gap:2rem;
 }
 
 @media (width < 900px) {

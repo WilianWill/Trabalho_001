@@ -138,8 +138,17 @@
     align-items: center;
     text-align: center;
   }
-  .footer {
-    gap:2rem;
+
+  
+  .footer_container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
 }
 
 @media (width < 900px) {

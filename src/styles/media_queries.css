@@ -6,6 +6,7 @@
     text-align: center;
     gap: 1rem;
     flex-wrap: wrap;
+    overflow-x: hidden;
   }
 
   .about_content {

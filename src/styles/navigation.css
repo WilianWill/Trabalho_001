@@ -97,3 +97,7 @@ button i:hover {
   text-decoration: none;
   color: #333;
 }
+
+#login-link {
+  pointer-events:none;
+}
